@@ -1,0 +1,44 @@
+/* Hero Section */
+.hero {
+  background-image: url('background.jpeg'); /* Ganti sesuai gambar hero */
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: fixed;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.caption-box {
+  background-color: rgba(0, 0, 0, 0.409);
+  padding: 10px 20px;
+  border-radius: 8px;
+  max-width: fit-content; /* Menyesuaikan lebar dengan ukuran teks */
+  display: inline-block; /* Agar box mengikuti ukuran teks */
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(5px);
+}
+
+.hero .container {
+  background-color: rgba(0, 0, 0, 0.313);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hero h2 {
+  font-size: 200%;
+  text-align: left;
+}
+
+/* Optional Card Customizations */
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
